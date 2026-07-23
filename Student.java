@@ -31,5 +31,5 @@ class Student {
         Student priya = new Student("Priya", 1350, "AI");
         priya.display();
         priya.study();
-    }
+    }      
 }
