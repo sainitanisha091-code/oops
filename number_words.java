@@ -1,0 +1,9 @@
+import java.util.*;
+public class number_words {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    String str = sc.nextLine();
+    String[] words = str.trim().split("\\s+");
+    System.out.println(words.length);
+    }
+}
