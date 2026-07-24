@@ -13,5 +13,5 @@ public class count_uppercase {
     System.out.print(count);
     sc.close();
     
- }
+ }  
 }
