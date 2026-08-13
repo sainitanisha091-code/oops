@@ -8,7 +8,7 @@ class Student{
         this.name = name ; 
         this.marks = marks ; 
     }
-    int total(){
+    int total(){ 
         int sum = 0 ; 
         for (int x : marks) sum+=x ;
         return sum;
