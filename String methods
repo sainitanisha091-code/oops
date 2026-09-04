@@ -1,0 +1,39 @@
+METHOD              USE                              EXAMPLE
+
+length()             Finds length                    "Hello".length()
+charAt(i)            Character at index              "Hello".charAt(1)
+substring(i)         From index i                    "Hello".substring(2)
+substring(i,j)       i to j-1                        "Hello".substring(1,4)
+
+indexOf()            First occurrence                "Hello".indexOf('l')
+lastIndexOf()        Last occurrence                 "Hello".lastIndexOf('l')
+contains()           Checks if text exists           "Hello".contains("ell")
+
+equals()             Compares strings                "Hello".equals("Hello")
+equalsIgnoreCase()   Compares ignoring case         "Hello".equalsIgnoreCase("hello")
+compareTo()          Lexicographic comparison        "apple".compareTo("banana")
+compareToIgnoreCase() Compare ignoring case         "Hello".compareToIgnoreCase("hello")
+
+toUpperCase()        Converts to uppercase           "hello".toUpperCase()
+toLowerCase()        Converts to lowercase           "HELLO".toLowerCase()
+
+trim()               Removes spaces at ends          "  hi  ".trim()
+strip()              Removes whitespace at ends     "  hi  ".strip()
+
+replace()             Replaces character/text         "hello".replace('l','x')
+replaceFirst()        Replaces first match            "hello".replaceFirst("l","x")
+replaceAll()          Replaces all matches            "a1b2".replaceAll("[0-9]","")
+
+startsWith()         Checks starting text            "Hello".startsWith("He")
+endsWith()           Checks ending text              "Hello".endsWith("lo")
+
+isEmpty()            Checks if String is empty       "".isEmpty()
+isBlank()            Empty or only spaces            "   ".isBlank()
+
+concat()             Joins two strings               "Hello".concat(" World")
+split()              Splits String into array        "a,b,c".split(",")
+toCharArray()        Converts String to char[]       "Hello".toCharArray()
+
+getBytes()           Converts String to byte[]       "Hi".getBytes()
+matches()            Checks regex pattern             "123".matches("[0-9]+")
+valueOf()            Converts value to String         String.valueOf(123)
